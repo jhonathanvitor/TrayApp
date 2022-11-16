@@ -1,5 +1,10 @@
-import { OrdersBoard } from '../OrdersBoard';
+import { Order } from '../../types/Order';
 import { Container } from './styles';
+import { OrdersBoard } from '../OrdersBoard';
+
+const orders: Order[] = [{
+  
+}];
 
 export function Orders() {
   return (
