@@ -12,7 +12,7 @@ export function OrderModal({ visible, order }: OrderModalProps) {
     return null;
   }
 
-  const price = new Intl.NumberFormat('pt-br', { style: 'currency', currency: 'BRL' }).format;
+  const price = new Intl.NumberFormat('pt-br', { style: 'currency', currency: 'BRL' });
 
   return (
     <Overlay>
