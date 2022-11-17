@@ -11,7 +11,11 @@ const orders: Order[] = [
       {
         product: {
           name: 'Pizza quatro queijos',
+<<<<<<< HEAD
           imagePath: '1668571159659-quatro-queijos.png',
+=======
+          imagePath: '1668472896991-quatro-queijos.png',
+>>>>>>> 39520d747115c42fd1f9b4d8773fa7772e728142
           price: 40,
         },
         quantity: 3,
@@ -20,7 +24,11 @@ const orders: Order[] = [
       {
         product: {
           name: 'Coca cola',
+<<<<<<< HEAD
           imagePath: '1668483856444-coca-cola.png',
+=======
+          imagePath: '1668473462705-coca-cola.png',
+>>>>>>> 39520d747115c42fd1f9b4d8773fa7772e728142
           price: 7,
         },
         quantity: 2,
@@ -43,7 +51,7 @@ export function Orders() {
         title="Em preparação"
         orders={[]}
       />
-      <OrdersBoard 
+      <OrdersBoard
         icon="✅"
         title="Pronto"
         orders={[]}

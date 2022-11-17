@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 import { useState } from 'react';
 import { Order } from '../../types/Order';
 import { OrderModal } from '../OrderModal';
+=======
+import { Order } from '../../types/Order';
+>>>>>>> 39520d747115c42fd1f9b4d8773fa7772e728142
 import { Board, OrdersContainer } from './styles';
 
 interface OrderBoardProps {

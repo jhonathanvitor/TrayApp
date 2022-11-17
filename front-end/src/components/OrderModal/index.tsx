@@ -56,7 +56,7 @@ export function OrderModal({ visible, order }: OrderModalProps) {
 
                 <div className="product-datails">
                   <strong>{product.name}</strong>
-                  <span>{price}</span>
+                  <span></span>
                 </div>
               </div>
             ))}
